@@ -1,0 +1,257 @@
+/* ===================================
+   ShopEase Checkout CSS
+=================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+    color:#333;
+}
+
+/* ===========================
+   Header
+=========================== */
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 8%;
+    background:#2874f0;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo a{
+    color:#fff;
+    text-decoration:none;
+    font-size:28px;
+    font-weight:700;
+}
+
+.header nav{
+    display:flex;
+    gap:25px;
+}
+
+.header nav a{
+    color:#fff;
+    text-decoration:none;
+    font-weight:500;
+    transition:0.3s;
+}
+
+.header nav a:hover{
+    color:#ffd54f;
+}
+
+/* ===========================
+   Page Title
+=========================== */
+
+.page-title{
+    text-align:center;
+    padding:40px 20px;
+}
+
+.page-title h1{
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+.page-title p{
+    color:#666;
+}
+
+/* ===========================
+   Checkout Layout
+=========================== */
+
+.checkout-container{
+    width:90%;
+    max-width:1200px;
+    margin:0 auto 50px;
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:30px;
+}
+
+/* ===========================
+   Checkout Form
+=========================== */
+
+.checkout-form{
+    background:#fff;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.checkout-form h2{
+    margin-bottom:20px;
+    color:#2874f0;
+}
+
+.checkout-form input,
+.checkout-form textarea{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+    outline:none;
+}
+
+.checkout-form input:focus,
+.checkout-form textarea:focus{
+    border-color:#2874f0;
+}
+
+.checkout-form h3{
+    margin:20px 0 15px;
+}
+
+.checkout-form label{
+    font-size:16px;
+}
+
+.checkout-form input[type="radio"]{
+    width:auto;
+    margin-right:8px;
+}
+
+#place-order{
+    width:100%;
+    margin-top:20px;
+    padding:14px;
+    border:none;
+    background:#28a745;
+    color:#fff;
+    font-size:18px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+#place-order:hover{
+    background:#218838;
+}
+
+/* ===========================
+   Order Summary
+=========================== */
+
+.order-summary{
+    background:#fff;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    height:fit-content;
+    position:sticky;
+    top:100px;
+}
+
+.order-summary h2{
+    margin-bottom:20px;
+    color:#2874f0;
+}
+
+.order-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:15px;
+    padding-bottom:10px;
+    border-bottom:1px solid #eee;
+}
+
+.order-item img{
+    width:60px;
+    height:60px;
+    object-fit:contain;
+}
+
+.order-details{
+    flex:1;
+    margin-left:15px;
+}
+
+.order-details h4{
+    font-size:16px;
+    margin-bottom:5px;
+}
+
+.order-details p{
+    color:#666;
+    font-size:14px;
+}
+
+.order-summary hr{
+    margin:20px 0;
+}
+
+.order-summary h3{
+    color:#2874f0;
+    font-size:24px;
+}
+
+/* ===========================
+   Footer
+=========================== */
+
+footer{
+    background:#222;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media(max-width:900px){
+
+    .checkout-container{
+        grid-template-columns:1fr;
+    }
+
+    .order-summary{
+        position:static;
+    }
+
+}
+
+@media(max-width:600px){
+
+    .header{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .header nav{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    .page-title h1{
+        font-size:30px;
+    }
+
+    .checkout-form,
+    .order-summary{
+        padding:20px;
+    }
+
+}

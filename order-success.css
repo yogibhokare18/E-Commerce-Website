@@ -1,0 +1,168 @@
+/* =====================================
+   ShopEase Order Success CSS
+===================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+    color:#333;
+}
+
+/* ===========================
+   Header
+=========================== */
+
+header{
+    background:#2874f0;
+    padding:18px 8%;
+}
+
+.logo a{
+    color:#fff;
+    text-decoration:none;
+    font-size:30px;
+    font-weight:700;
+}
+
+/* ===========================
+   Success Section
+=========================== */
+
+.success-container{
+    min-height:85vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px 20px;
+}
+
+.success-card{
+    width:100%;
+    max-width:650px;
+    background:#fff;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+.success-icon{
+    font-size:90px;
+    color:#28a745;
+    margin-bottom:20px;
+}
+
+.success-card h1{
+    color:#28a745;
+    margin-bottom:15px;
+}
+
+.success-card p{
+    color:#666;
+    margin-bottom:10px;
+    line-height:1.6;
+}
+
+/* ===========================
+   Order Info
+=========================== */
+
+.order-info{
+    margin-top:30px;
+    text-align:left;
+    background:#f8f9fa;
+    padding:20px;
+    border-radius:10px;
+}
+
+.order-info h3{
+    color:#2874f0;
+    margin-bottom:20px;
+    text-align:center;
+}
+
+.order-info p{
+    display:flex;
+    justify-content:space-between;
+    margin:12px 0;
+    font-size:16px;
+}
+
+.order-info strong{
+    color:#222;
+}
+
+/* ===========================
+   Buttons
+=========================== */
+
+.buttons{
+    margin-top:30px;
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.btn{
+    padding:12px 25px;
+    background:#2874f0;
+    color:#fff;
+    text-decoration:none;
+    border-radius:8px;
+    transition:0.3s;
+    font-weight:600;
+}
+
+.btn:hover{
+    background:#0d47a1;
+}
+
+.secondary{
+    background:#28a745;
+}
+
+.secondary:hover{
+    background:#218838;
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media(max-width:768px){
+
+    .success-card{
+        padding:25px;
+    }
+
+    .success-icon{
+        font-size:70px;
+    }
+
+    .success-card h1{
+        font-size:28px;
+    }
+
+    .order-info p{
+        flex-direction:column;
+        gap:5px;
+    }
+
+    .buttons{
+        flex-direction:column;
+    }
+
+    .btn{
+        width:100%;
+    }
+
+}

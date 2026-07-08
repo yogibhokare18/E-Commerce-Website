@@ -55,17 +55,6 @@ ShopEase/
 │   ├── shoes.jpg
 │   └── logo.png
 │
-├── screenshots/
-│   ├── home.png
-│   ├── product1.png
-│   ├── product2.png
-│   ├── product3.png
-│   ├── product4.png
-│   ├── cart.png
-│   ├── checkout1.png
-│   ├── checkout2.png
-│   └── order-success.png
-│
 ├── index.html
 ├── style.css
 ├── script.js
@@ -90,9 +79,19 @@ ShopEase/
 ├── order-history.css
 ├── order-history.js
 │
-└── README.md
+├── README.md
+│
+└── screenshots/
+    ├── home.png
+    ├── product1.png
+    ├── product2.png
+    ├── product3.png
+    ├── product4.png
+    ├── cart.png
+    ├── checkout1.png
+    ├── checkout2.png
+    └── order-success.png
 ``````
-```
 
 ---
 

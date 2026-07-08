@@ -22,11 +22,11 @@ A modern, responsive **E-Commerce Website** built using **HTML, CSS, and JavaScr
 
 ## 🛠️ Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript (ES6)
-- Font Awesome
-- Local Storage API
+- HTML5 (Structure)
+- CSS3 (Responsive UI Design)
+- JavaScript ES6 (Dynamic Functionality)
+- Font Awesome Icons
+- Browser Local Storage API
 
 ---
 
@@ -110,9 +110,12 @@ screenshots/
 
 **Yoginand Digambar Bhokare**
 
-- 🎓 Bachelor of Computer Applications (BCA)
-- 💻 Front-End Web Developer
-- 🌱 Learning Full Stack Development
+🎓 BCA Graduate  
+💻 Front-End Developer  
+🌱 Learning Full Stack Python Development  
+
+Skills:
+HTML | CSS | JavaScript | Python | Django | SQL
 
 ---
 

@@ -32,11 +32,39 @@ A modern, responsive **E-Commerce Website** built using **HTML, CSS, and JavaScr
 
 ## 📂 Project Structure
 
-```
+```text
 ShopEase/
 │
 ├── icons/
+│   ├── cart.svg
+│   ├── search.svg
+│   ├── user.svg
+│   └── menu.svg
+│
 ├── images/
+│   ├── hero-banner.jpg
+│   ├── laptop.jpg
+│   ├── smartphone.jpg
+│   ├── headphones.jpg
+│   ├── smartwatch.jpg
+│   ├── tshirt.jpg
+│   ├── bluetooth-speaker.jpg
+│   ├── backpack.jpg
+│   ├── camera.jpg
+│   ├── monitor.jpg
+│   ├── shoes.jpg
+│   └── logo.png
+│
+├── screenshots/
+│   ├── home.png
+│   ├── product1.png
+│   ├── product2.png
+│   ├── product3.png
+│   ├── product4.png
+│   ├── cart.png
+│   ├── checkout1.png
+│   ├── checkout2.png
+│   └── order-success.png
 │
 ├── index.html
 ├── style.css
@@ -63,6 +91,7 @@ ShopEase/
 ├── order-history.js
 │
 └── README.md
+``````
 ```
 
 ---
@@ -92,18 +121,33 @@ No additional installation is required.
 
 ## 📸 Screenshots
 
-> You can add screenshots here after uploading images.
+### 🏠 Home Page
 
-Example:
+![Home Page](screenshots/home.png)
 
-```
-screenshots/
-├── home.png
-├── products.png
-├── cart.png
-├── checkout.png
-```
+### 📦 Product Details
 
+![Product 1](screenshots/product1.png)
+
+![Product 2](screenshots/product2.png)
+
+![Product 3](screenshots/product3.png)
+
+![Product 4](screenshots/product4.png)
+
+### 🛒 Shopping Cart
+
+![Cart](screenshots/cart.png)
+
+### 💳 Checkout
+
+![Checkout 1](screenshots/checkout1.png)
+
+![Checkout 2](screenshots/checkout2.png)
+
+### ✅ Order Success
+
+![Order Success](screenshots/order-success.png)
 ---
 
 ## 👨‍💻 Author
